@@ -16,4 +16,4 @@ if [ -z "${name}" ]; then
 fi
 
 echo "Creating distrobox"
-distrobox assemble create --file "$name.ini"
+distrobox assemble create --replace --file "$name"
